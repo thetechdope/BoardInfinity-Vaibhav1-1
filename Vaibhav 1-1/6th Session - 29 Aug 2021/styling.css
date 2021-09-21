@@ -1,0 +1,33 @@
+.orange {
+    color: orange;
+}
+
+#greenParagraph {
+    color: green;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    background-color: rgba(1, 255, 200, 0.5);
+    border: 2px solid rgb(255, 190, 10);
+}
+
+/* Formatting Options */
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: blue;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+th,
+td {
+    padding: 10px;
+}
