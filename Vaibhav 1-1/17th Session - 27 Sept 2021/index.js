@@ -1,13 +1,12 @@
 /*
     Today's Topics
-    
-    ES6 Features & Syntax
-    Arrow Function
-    JavaScript Events
-    Map, Filter, Reduce
+
+    ES6 Features & Syntax ->
+
+    let & const
     this Keyword
-    Form Validation & Data Submission
-    Manipulating Style, Text, Content, Attributes, Events
-    DOM methods - createElement, setAttribute, appendChild, append
+    arrow function
+    JavaScript Events
+    Spread Operator
 
 */
