@@ -3,8 +3,6 @@
     Today's Topics
 
     Github & it's integration with VS Code
-    Map
-    Filter
 
 */
 
