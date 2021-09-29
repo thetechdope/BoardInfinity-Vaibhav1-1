@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sum Of Numbers</title>
+    <script>
+        function validateForm() {
+            let firstNumber = document.forms["myForm"]["firstNumber"].value;
+            let secondNumber = document.forms["myForm"]["secondNumber"].value;
+            if (firstNumber == "") {
+                alert("First Number must be filled out");
+                return false;
+            } else if (secondNumber == "") {
+                alert("Second Number must be filled out");
+                return false;
+            } else {
+                alert(`Sum is ${parseInt(firstNumber) + parseInt(secondNumber)}`);
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Sum Of Two Numbers</h2>
+
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        First Number: <input type="text" name="firstNumber">
+        <br /><br />
+        Second Number: <input type="text" name="secondNumber">
+        <br /><br />
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
