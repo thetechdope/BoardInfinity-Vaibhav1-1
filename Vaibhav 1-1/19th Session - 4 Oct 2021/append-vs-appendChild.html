@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<!-- <head>
+    <style>
+        span {
+            background-color: red;
+        }
+    </style>
+</head> -->
+
+<body>
+
+    <p>Click the button to create a P element with some text, and append it to DIV.</p>
+    <ul id="unorderedList">
+    </ul>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+        let counter = 1;
+        function myFunction() {
+            const parent = document.createElement('div');
+            parent.appendChild("Text");
+            document.getElementById("unorderedList").append(parent);
+        }
+    </script>
+
+</body>
+
+</html>
