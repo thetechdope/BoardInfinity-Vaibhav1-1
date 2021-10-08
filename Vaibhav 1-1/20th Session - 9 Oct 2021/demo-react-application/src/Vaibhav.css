@@ -1,0 +1,10 @@
+.main-class {
+    margin: 5px;
+    border: 2px solid red;
+    color: magenta;
+    font-size: large;
+}
+
+.span-class {
+    color: blue;
+}

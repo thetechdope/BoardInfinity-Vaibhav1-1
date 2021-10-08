@@ -1,0 +1,14 @@
+.black {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-color: black;
+}
+
+.white {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    background-color: yellow;
+    color: yellow;
+}
