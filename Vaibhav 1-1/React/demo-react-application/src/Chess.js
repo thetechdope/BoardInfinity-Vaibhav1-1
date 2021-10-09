@@ -6,7 +6,7 @@ import White from './White';
 
 function Chess() {
     return (
-        <div className="main-class">
+        <div className="border-class">
             <Black />
             <White />
             <Black />

@@ -1,3 +1,9 @@
+.border-class {
+    margin: 0.5rem;
+    display: inline-block;
+    border: 1px solid black;
+}
+
 .black {
     height: 80px;
     width: 80px;
@@ -9,6 +15,6 @@
     height: 80px;
     width: 80px;
     display: inline-block;
-    background-color: yellow;
-    color: yellow;
+    background-color: white;
+    color: white;
 }
