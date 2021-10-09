@@ -11,7 +11,7 @@ function Vaibhav() {
             <br />
             <span className="span-class">Vaibhav Tayade</span>
             <br />
-            <span className="span-class">Sum Of Both Numbers : {a + b}</span>
+            <span className="span-class">Value of a is: {a}</span>
         </div>
     );
 }

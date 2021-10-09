@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Chess from './Chess';
+import FunctionalComponent from './FunctionalComponent';
 import reportWebVitals from './reportWebVitals';
+
+const myName = "Akshay Khurana";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Chess />
+    <FunctionalComponent name={myName} />
+    <FunctionalComponent name="Vaibhav Tayade" />
   </React.StrictMode>,
   document.getElementById('root')
 );
