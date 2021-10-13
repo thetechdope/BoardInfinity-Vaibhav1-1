@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyComponent from './MyComponent';
+import ConditionalRendering from './ConditionalRendering';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <ConditionalRendering />
   </React.StrictMode>,
   document.getElementById('root')
 );

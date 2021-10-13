@@ -1,6 +1,6 @@
 import React from "react";
 
-class MyComponent extends React.Component {
+class LifeCycleMethods extends React.Component {
 
     constructor(props) {
         super(props);
@@ -12,19 +12,11 @@ class MyComponent extends React.Component {
         console.log("City : ", this.state.city);
     }
 
-    // static getDerivedStateFromProps(props) {
-    //     console.log("City : ", props.myCity);
-    //     return { city: props.myCity }
-    // }
-
-    updateCity = () => {
-        this.setState({ city: "Shegaon" });
-        console.log("City : ", this.state.city);
-    }
-
     componentDidMount() {
-        this.setState({ city: "Meerut" }); // Async Call
-        console.log("City : ", this.state.city);
+        setTimeout(() => {
+            this.setState({ city: "Meerut" });
+            console.log("City : ", this.state.city);
+        }, 5000);
     }
 
     render() {
@@ -37,4 +29,4 @@ class MyComponent extends React.Component {
     }
 }
 
-export default MyComponent;
+export default LifeCycleMethods;

@@ -23,13 +23,18 @@ Class Based & Functional Based Compoonents
 
 setTimeout
 Callback Functions
-
 Class Components
 State in class components
 Lifecycle Methods
 
+23rd Session - 13th October 2021 (demo-react-application)
+
+Lifecycle Methods Continuation
+Conditional Rendering
+
 Promises
 Methods as props
 CSS Styles
+
 
 */
