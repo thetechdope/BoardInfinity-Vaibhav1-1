@@ -40,11 +40,11 @@ State Updation
 
 Remaining Lifecycle methods
 Functional Components
-
 Hooks
-React Forms
 Method as Props
 Promises
-Custom Hooks
+
+React Forms -> Project
+Custom Hooks -> Project
 
 */
