@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 class InnerComponent extends React.Component {
     render() {
         return (
