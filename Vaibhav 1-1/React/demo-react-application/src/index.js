@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FunctionalComponent from './FunctionalComponent';
+import UseState from './UseState';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FunctionalComponent />
+    <UseState />
   </React.StrictMode>,
   document.getElementById('root')
 );

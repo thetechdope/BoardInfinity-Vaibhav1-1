@@ -3,20 +3,19 @@ import React from "react";
 class GetSnapshotBeforeUpdate extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { favoritecolor: "red", previousFavoriteColor: "" };
+        this.state = { favoritecolor: "red" };
         console.log('Constructor');
     }
     componentDidMount() {
         setTimeout(() => {
             this.setState({ favoritecolor: "yellow" })
-        }, 4000)
+        }, 10000)
         console.log('ComponentDidMount');
     }
     getSnapshotBeforeUpdate(prevProps, prevState) {
         document.getElementById("div1").innerHTML =
             "Before the update, the favorite was " + prevState.favoritecolor;
         console.log('GetSnapshotBeforeUpdate');
-        //this.setState({ previousFavoriteColor: prevState.favoritecolor })
         return prevState.favoritecolor;
     }
     componentDidUpdate() {

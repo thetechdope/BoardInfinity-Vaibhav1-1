@@ -11,7 +11,7 @@ class InnerComponent extends React.Component {
 class ClassComponent extends React.Component {
     constructor(props) {
         super(props);
-        //this.state = { firstName: "Vaibhav", lastName: "Tayade" }
+        this.state = { firstName: "Vaibhav", lastName: "Tayade" }
     }
 
     componentDidMount() {
@@ -24,7 +24,7 @@ class ClassComponent extends React.Component {
             <div>
                 My name is {this.props.firstName} {this.props.lastName}
                 <br />
-                <InnerComponent />                
+                <InnerComponent />
             </div>
         );
     }
